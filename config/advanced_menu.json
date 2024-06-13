@@ -1,0 +1,110 @@
+{
+  "items": [
+    {
+      "title": "File",
+      "submenu": [
+        {
+          "title": "New",
+          "submenu": [
+            {
+              "title": "Project",
+              "action": "new_project"
+            },
+            {
+              "title": "File",
+              "action": "new_file"
+            }
+          ]
+        },
+        {
+          "title": "Open",
+          "action": "open_file"
+        },
+        {
+          "title": "Save",
+          "action": "save_file"
+        },
+        {
+          "title": "Save As",
+          "action": "save_as_file"
+        },
+        {
+          "title": "Exit",
+          "action": "exit_action"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "submenu": [
+        {
+          "title": "Undo",
+          "action": "undo_action"
+        },
+        {
+          "title": "Redo",
+          "action": "redo_action"
+        },
+        {
+          "title": "Cut",
+          "action": "cut_action"
+        },
+        {
+          "title": "Copy",
+          "action": "copy_action"
+        },
+        {
+          "title": "Paste",
+          "action": "paste_action"
+        },
+        {
+          "title": "Find",
+          "submenu": [
+            {
+              "title": "Find Next",
+              "action": "find_next"
+            },
+            {
+              "title": "Find Previous",
+              "action": "find_previous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "View",
+      "submenu": [
+        {
+          "title": "Zoom In",
+          "action": "zoom_in"
+        },
+        {
+          "title": "Zoom Out",
+          "action": "zoom_out"
+        },
+        {
+          "title": "Reset Zoom",
+          "action": "reset_zoom"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "submenu": [
+        {
+          "title": "View Help",
+          "action": "view_help"
+        },
+        {
+          "title": "Send Feedback",
+          "action": "send_feedback"
+        },
+        {
+          "title": "About",
+          "action": "about_action"
+        }
+      ]
+    }
+  ]
+}

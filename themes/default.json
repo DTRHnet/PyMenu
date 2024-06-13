@@ -1,0 +1,5 @@
+{
+    "color_pairs": {
+        "1": [0, 7]  // Black text on white background
+    }
+}

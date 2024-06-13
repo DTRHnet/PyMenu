@@ -1,0 +1,26 @@
+{
+    "title": "Main Menu",
+    "items": [
+        {
+            "title": "Option 1",
+            "submenu": [
+                {
+                    "title": "Suboption 1.1",
+                    "action": "action_1_1"
+                },
+                {
+                    "title": "Suboption 1.2",
+                    "action": "action_1_2"
+                }
+            ]
+        },
+        {
+            "title": "Option 2",
+            "action": "action_2"
+        },
+        {
+            "title": "Exit",
+            "action": "exit"
+        }
+    ]
+}

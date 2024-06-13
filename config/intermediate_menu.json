@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "title": "File",
+      "submenu": [
+        {
+          "title": "New",
+          "action": "new_file"
+        },
+        {
+          "title": "Open",
+          "action": "open_file"
+        },
+        {
+          "title": "Save",
+          "action": "save_file"
+        },
+        {
+          "title": "Exit",
+          "action": "exit_action"
+        }
+      ]
+    },
+    {
+      "title": "Edit",
+      "submenu": [
+        {
+          "title": "Undo",
+          "action": "undo_action"
+        },
+        {
+          "title": "Redo",
+          "action": "redo_action"
+        },
+        {
+          "title": "Cut",
+          "action": "cut_action"
+        },
+        {
+          "title": "Copy",
+          "action": "copy_action"
+        },
+        {
+          "title": "Paste",
+          "action": "paste_action"
+        }
+      ]
+    },
+    {
+      "title": "Help",
+      "submenu": [
+        {
+          "title": "View Help",
+          "action": "view_help"
+        },
+        {
+          "title": "About",
+          "action": "about_action"
+        }
+      ]
+    }
+  ]
+}
